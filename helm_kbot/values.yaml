@@ -1,0 +1,14 @@
+replicaCount: 1
+
+image:
+  repository: maksymlask
+  tag: v0.1.0-ad5f608
+  arch: amd64
+
+secret:
+  name: "kbot"
+  env: "TELE_TOKEN"
+  key: "token"
+
+securityContext:
+  privileged: true

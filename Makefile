@@ -1,5 +1,5 @@
 APP := $(shell basename $(shell git remote get-url origin))
-REGISTRY := ghcr.io/$(shell git rev-parse --show-toplevel | xargs basename)
+REGISTRY := ghcr.io/Laskavchuk
 VERSION=$(shell git describe --tags --abbrev=0)-$(shell git rev-parse --short HEAD)
 TARGETOS ?= linux
 TARGETARCH ?= amd64

@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   registry: "ghcr.io"
-  repository: "laskavchuk/kbot"
+  repository: "laskavchuk/kbot/helm-kbot"
   tag: "v1.0.3-0f12234"
   os: linux
   arch: amd64

@@ -1,13 +1,17 @@
 replicaCount: 1
 image:
-  registry: "ghcr.io"
-  repository: "laskavchuk/kbot/helm-kbot"
-  tag: "v1.0.3-0057363"
-  os: linux
-  arch: amd64
+  repository: "ghcr.io/laskavchuk/kbot/helm-kbot"
+  tag: "v1.0.3-e6d2bea"
+  arch: "amd64"
+  pullPolicy: "IfNotPresent"
+
+imagePullSecrets:
+  - name: ghcr-secret   # секрет для GHCR
+
 secret:
   name: "kbot"
   env: "TELE_TOKEN"
   key: "token"
+
 securityContext:
   privileged: true

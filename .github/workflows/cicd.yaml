@@ -40,7 +40,7 @@ jobs:
         fetch-depth: 0
     - run: echo "VERSION=$(shell git describe --tags --abbrev=0)-$(shell git rev-parse --short HEAD)" >> $GITHUB_ENV
 
-    - uses: makefarah/yq@master
+    - uses: mikefarah/yq@master
       with:
         cmd: yq -i '.image.tag=strenv(VERSION)' helm_kbot/values.yaml
       

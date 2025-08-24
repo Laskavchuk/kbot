@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: "maksymlask"
-  tag: "v1.0.3-d36a5d8"
+  tag: "v1.0.3-61369a4"
   arch: amd64
 secret:
   name: "kbot"

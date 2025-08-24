@@ -1,4 +1,6 @@
 name: KBOT-CICD
+permissions:
+  contents: write
 
 on: push
 

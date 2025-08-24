@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: maksymlask
-  tag: v0.1.0-ad5f608
+  tag: v1.0.3-d1507d2
   arch: amd64
 
 secret:

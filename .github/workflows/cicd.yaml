@@ -47,7 +47,7 @@ jobs:
       - name: Update Helm values
         uses: mikefarah/yq@master
         with:
-          cmd: yq -i '.image.tag=strenv(VERSION)' helm_kbot/values.yaml
+          cmd: yq -i '.image.tag=strenv(VERSION)' helm-kbot/values.yaml
 
       - name: Commit and Push changes
         run: |

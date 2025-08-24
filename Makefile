@@ -33,7 +33,7 @@ clean:
 
 # Build Docker image
 image:
-	docker build . -t $(REGISTRY)/$(APP):$(VERSION)-$(TARGETOS)-$(TARGETARCH)
+	docker build . -t $(REGISTRY)/$(APP):$(VERSION)-$(TARGETARCH)
 push:
 	
-	docker push $(REGISTRY)/$(APP):$(VERSION)-$(TARGETOS)-$(TARGETARCH)
+	docker push $(REGISTRY)/$(APP):$(VERSION)-$(TARGETARCH)

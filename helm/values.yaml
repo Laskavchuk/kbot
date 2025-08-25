@@ -5,8 +5,6 @@ image:
   arch: "amd64"
   os: "linux"
   pullPolicy: "IfNotPresent"
-imagePullSecrets:
-  - name: ghcr-secret
 secret:
   name: "kbot"
   env: "TELE_TOKEN"

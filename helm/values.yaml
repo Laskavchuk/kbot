@@ -3,6 +3,7 @@ image:
   repository: "ghcr.io/laskavchuk/kbot"
   tag: "v1.0.3-e8e0613"
   arch: "amd64"
+  os: "linux"
   pullPolicy: "IfNotPresent"
 imagePullSecrets:
   - name: ghcr-secret

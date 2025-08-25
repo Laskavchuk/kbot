@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: "ghcr.io/laskavchuk/kbot/helm"
+  repository: "ghcr.io/laskavchuk/kbot"
   tag: "v1.0.3-b385604"
   arch: "amd64"
   pullPolicy: "IfNotPresent"

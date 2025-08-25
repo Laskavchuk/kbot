@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   registry: "ghcr.io"
   repository: "laskavchuk/kbot"
-  tag: "v1.0.3-314b41c"
+  tag: "v1.0.3-eab4833"
   arch: "amd64"
   os: "linux"
   pullPolicy: "IfNotPresent"

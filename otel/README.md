@@ -82,6 +82,14 @@ docker-compose logs -f prometheus
 ```
 
 ## 7️⃣ Демонстрація Grafana
-- Дашборд
+## Дашборд
+
+![Дашборд](https://raw.githubusercontent.com/Laskavchuk/kbot/main/.data/home_grafana.gif)
+## Prometheus
+
+![Prometheus](https://raw.githubusercontent.com/Laskavchuk/kbot/main/.data/prometheus_grafana.gif)
+## Loki
+
+![Loki](https://raw.githubusercontent.com/Laskavchuk/kbot/main/.data/loki_grafana.gif)
   
 
